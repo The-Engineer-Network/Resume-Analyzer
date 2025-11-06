@@ -1,3 +1,4 @@
+import '../../index.css'
 import { Route, createRoutesFromElements } from 'react-router';
 import { createBrowserRouter } from 'react-router-dom';
 import App from '../../App';
