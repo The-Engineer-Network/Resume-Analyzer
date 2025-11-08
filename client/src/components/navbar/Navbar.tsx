@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import { MdAnalytics } from 'react-icons/md';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -41,7 +42,7 @@ function Navbar() {
         
         {/* Brand Section */}
         <div className="flex items-center gap-x-3">
-          <span className="material-symbols-outlined text-blue-600 text-3xl">analytics</span>
+          <MdAnalytics size={30} />
           <span className="text-xl tracking-[-0.001em] font-bold leading-tight">Resume Analyzer</span>
         </div>
 
