@@ -1,5 +1,3 @@
-
-
 function useAuth() {
   return (
     <div>
